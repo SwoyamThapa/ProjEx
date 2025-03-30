@@ -1,0 +1,145 @@
+/* Layout */
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Left panel */
+  .login-left {
+    flex: 1;
+    background-color: #1e1e2f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .form-box h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-box p {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #2e2e40;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .form-box input::placeholder {
+    color: #aaa;
+  }
+  
+  .forgot {
+    background: none;
+    border: none;
+    color: #aaa;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 0;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #9f7aea;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #805ad5;
+  }
+  
+  .signup-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .signup-btn {
+    padding: 0.4rem 0.8rem;
+    background-color: #2e2e40;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .login-right {
+    flex: 1;
+    background-color: #2e2e40;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  .login-right::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: url('../assets/login_img.png') no-repeat center;
+    background-size: contain;
+    border-radius: 16px;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+      
+  
+  .welcome-overlay {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 80%;
+  }
+  
+  .welcome-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .welcome-sub {
+    font-size: 1rem;
+    color: white;
+  }
+  
