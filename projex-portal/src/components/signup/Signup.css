@@ -1,0 +1,96 @@
+/* Container for the signup form */
+.signup-container {
+    max-width: 450px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #1e1e3f; /* deep navy blue */
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* The actual form layout */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  /* Input fields and dropdowns */
+  .signup-form input,
+  .signup-form select {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    background-color: #2a2a4f;
+    border: 1px solid #444;
+    color: #fff;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .signup-form input:focus,
+  .signup-form select:focus {
+    border: 1px solid #a974f2; /* purple accent */
+  }
+  
+  /* Button style */
+  .signup-form button {
+    padding: 0.75rem;
+    background-color: #a974f2; /* primary purple */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: #8e5be0; /* darker purple on hover */
+  }
+  
+  /* Message after signup */
+  .signup-message {
+    margin-top: 1rem;
+    color: #66ff99;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .password-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding-right: 2.5rem; /* space for the icon */
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #2a2a4f;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 6px;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2a2a4f;
+    box-shadow: none;
+    border: none;
+    color: #2a2a4f;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0;
+    outline: none;
+  }
+  
+  
+  
